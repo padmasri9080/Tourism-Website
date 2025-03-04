@@ -1,0 +1,33 @@
+/* Ensure the body and html take up the full height */
+
+/* Full-page contact section */
+.contact-page {
+  background-image: url('https://tourwithrahul.com/wp-content/uploads/2020/07/humayun-s-tomb-under-blue-sky-3672388-scaled.jpg'); /* Replace with your image URL */
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 40px;
+}
+
+/* White background box similar to login page */
+.contact-container {
+  background: rgba(227, 231, 231, 0.8); /* Semi-transparent white */
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  max-width: 500px;
+  text-align: center;
+}
+
+h2 {
+  color: #550b0b;
+  font-size: 30px;
+}
+
+p {
+  font-size: 18px;
+  color: #0e0c0c;
+}

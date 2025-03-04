@@ -1,0 +1,33 @@
+/* Navbar.css */
+.navbar {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color:rebeccapurple;
+  padding: 10px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+}
+
+.menu-items {
+  display: flex;
+  list-style: none;
+  gap: 20px;
+}
+
+.menu-items li {
+  color: white;
+  font-size: 1.2rem;
+}
+
+.menu-items li:hover {
+  color: #f39c12;
+}
+
+.menu-items li a {
+  color: white;
+  text-decoration: none;
+}

@@ -1,0 +1,131 @@
+.destinations {
+  padding: 20px;
+  background-color: #f4f4f9;
+}
+
+.search-bar {
+  margin-bottom: 30px;  /* Increased space below the search bar */
+  text-align: center;
+}
+
+.search-bar input {
+  padding: 10px;
+  width: 80%;
+  font-size: 16px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.destination-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 20px;
+  justify-items: center;
+  margin-top: 30px;  /* Increased space between destination list and the search bar */
+}
+
+.destination-box {
+  background-color: #fff;
+  padding: 20px;  /* Increased padding */
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  width: 100%;
+  max-width: 320px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.destination-box:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+.destination-box img {
+  max-width: 100%;
+  border-radius: 8px;
+  height: 180px;
+  object-fit: cover;
+  margin-bottom: 20px;  /* Increased space between image and text */
+}
+
+.destination-box h2 {
+  font-size: 1.5em;
+  margin: 10px 0;
+  color: #333;
+}
+
+.destination-box p {
+  font-size: 1em;
+  margin: 5px 0;
+  color: #555;
+}
+
+.destination-box p strong {
+  color: #333;
+}
+
+/* Container for buttons with natural spacing */
+.buttons-container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;  /* Increased space between the buttons */
+  width: 100%;
+  align-items: center;
+  margin-top: 20px;  /* Increased space between content and buttons */
+}
+
+/* Button styles */
+.add-to-favorites,
+.book-now {
+  width: 45%;  /* Small width for both buttons */
+  padding: 10px;
+  
+  border: none;
+  background-color: #c560c9;
+  color: white;
+  font-size: 1em;
+  cursor: pointer;
+  border-radius: 5px;
+  text-align: center;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s ease, transform 0.3s ease;
+  font-family: 'Arial', sans-serif;  /* Font style */
+}
+
+.add-to-favorites:hover,
+.book-now:hover {
+  background-color: #f094e3;
+  transform: translateY(-2px);
+}
+
+.add-to-favorites:active,
+.book-now:active {
+  transform: translateY(2px);
+}
+
+.book-now {
+  background-color: #007bff;
+}
+
+.book-now:hover {
+  background-color: #699fda;
+}
+
+/* Favorite link styles */
+.favorites-link {
+  text-align: center;
+  display: block;
+  margin-top: 30px;  /* Increased space between favorite link and other content */
+  font-size: 1.2em;
+  color: #007bff;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.favorites-link:hover {
+  color: #0056b3;
+  text-decoration: underline;
+}

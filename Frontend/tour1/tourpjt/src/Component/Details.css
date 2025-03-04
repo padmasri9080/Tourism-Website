@@ -1,0 +1,46 @@
+.destination-details {
+    padding: 20px;
+  }
+  
+  .details-container {
+    display: flex;
+    gap: 20px;
+    max-width: 900px;
+    margin: 0 auto;
+  }
+  
+  .destination-image {
+    width: 300px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 8px;
+  }
+  
+  .destination-info {
+    flex-grow: 1;
+  }
+  
+  .destination-info h2 {
+    font-size: 28px;
+    margin-bottom: 10px;
+  }
+  
+  .destination-info p {
+    font-size: 18px;
+    margin-bottom: 8px;
+  }
+  
+  .back-link {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 8px 12px;
+    background-color: #007BFF;
+    color: white;
+    text-decoration: none;
+    border-radius: 4px;
+  }
+  
+  .back-link:hover {
+    background-color: #0056b3;
+  }
+  
