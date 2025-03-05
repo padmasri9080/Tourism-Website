@@ -1,8 +1,6 @@
-/* Ensure the body and html take up the full height */
 
-/* Full-page contact section */
 .contact-page {
-  background-image: url('https://tourwithrahul.com/wp-content/uploads/2020/07/humayun-s-tomb-under-blue-sky-3672388-scaled.jpg'); /* Replace with your image URL */
+  background-image: url('https://tourwithrahul.com/wp-content/uploads/2020/07/humayun-s-tomb-under-blue-sky-3672388-scaled.jpg'); 
   background-size: cover;
   background-position: center;
   height: 100vh;
@@ -12,9 +10,9 @@
   padding: 40px;
 }
 
-/* White background box similar to login page */
+
 .contact-container {
-  background: rgba(227, 231, 231, 0.8); /* Semi-transparent white */
+  background: rgba(227, 231, 231, 0.8); 
   padding: 30px;
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
