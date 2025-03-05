@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { useLocation } from 'react-router-dom';
-import './Booking.css';  // Import the specific CSS for this page
+import './Booking.css';  
 
 const Booking = () => {
   const location = useLocation();
@@ -17,7 +17,7 @@ const Booking = () => {
   };
 
   return (
-    <div className="booking-page">  {/* Apply styles only inside this container */}
+    <div className="booking-page">  
       <div className="booking-container">
         <h2>Book Your Trip to {destination?.name}</h2>
         <form onSubmit={handleSubmit} className="booking-form">
