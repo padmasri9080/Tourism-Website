@@ -1,53 +1,53 @@
-/* About Us Page Background */
+
 .about-us-container {
-    background-color: #edaff3; /* Light blue background */
-    min-height: 100vh; /* Full height */
+    background-color: #edaff3; 
+    min-height: 100vh; 
     display: flex;
     justify-content: center;
     align-items: center;
     padding: 40px;
   }
   
-  /* Content Box Styling */
+ 
   .about-us-content {
-    background-color: #ffffff; /* White background for the content */
+    background-color: #ffffff; 
     padding: 40px;
-    border-radius: 10px; /* Rounded corners */
-    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1); /* Soft shadow effect */
+    border-radius: 10px; 
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1); 
     max-width: 900px;
     width: 100%;
     text-align: center;
   }
   
-  /* Heading (Main Title) */
+  
   h1 {
     font-size: 36px;
     font-weight: 700;
-    color: #333; /* Dark gray color */
+    color: #333; 
     margin-bottom: 20px;
     letter-spacing: 1px;
     text-transform: uppercase;
   }
   
-  /* Description Styling */
+  
   .description {
     font-size: 18px;
     color: #555;
     line-height: 1.8;
     margin-bottom: 30px;
-    text-align: justify; /* Justified text for clean look */
+    text-align: justify; 
   }
   
-  /* Section Titles */
+ 
   h2 {
     font-size: 28px;
-    color: #db7bab; /* Blue color for the headings */
+    color: #db7bab; 
     margin-top: 30px;
     font-weight: 600;
   
   }
   
-  /* List of Values or Mission */
+  
   .about-us-details ul {
     list-style-type: none;
     padding-left: 0;
@@ -63,22 +63,22 @@
   }
   
   .about-us-details ul li::before {
-    content: "•"; /* Bullet point */
+    content: "•"; 
     position: absolute;
     left: 0;
-    color: #2575fc; /* Blue bullet points */
+    color: #2575fc;
     font-size: 20px;
     top: 0;
   }
   
-  /* Contact Us Section */
+  
   .contact-info {
     font-size: 18px;
     color: #444;
     margin-top: 20px;
   }
   
-  /* Button Styling (If used in About Us) */
+
   button {
     background-color: #2575fc;
     color: white;
@@ -95,7 +95,7 @@
     background-color: #1a5dcb;
   }
   
-  /* Responsive Design for smaller screens */
+  
   @media (max-width: 768px) {
     .about-us-content {
       padding: 25px;
