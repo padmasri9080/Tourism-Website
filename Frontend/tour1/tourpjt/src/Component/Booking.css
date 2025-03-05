@@ -1,4 +1,4 @@
-/* Apply the background only for this page */
+
 .booking-page {
   display: flex;
   justify-content: center;
@@ -9,39 +9,38 @@
   animation: gradientBG 10s ease infinite;
 }
 
-/* Background Animation */
+
 @keyframes gradientBG {
   0% { background-position: 0% 50%; }
   50% { background-position: 100% 50%; }
   100% { background-position: 0% 50%; }
 }
 
-/* Booking Form Container */
 .booking-container {
   width: 50%;
   max-width: 350px; 
   padding: 30px;
-  background: rgba(147, 121, 221, 0.7); /* Dark semi-transparent background */
+  background: rgba(147, 121, 221, 0.7); 
   border-radius: 10px;
   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
   text-align: center;
   z-index: 1;
 }
 
-/* Booking Form Title */
+
 .booking-container h2 {
   font-size: 26px;
   color: #fbc2eb; 
   margin-bottom: 20px;
 }
 
-/* Form Styling */
+
 .booking-form {
   display: flex;
   flex-direction: column;
 }
 
-/* Form Field Styling */
+
 .form-field {
   margin-bottom: 20px;
   text-align: left;
@@ -64,7 +63,7 @@
   background-color: rgba(255, 255, 255, 0.8);
 }
 
-/* Submit Button Styling */
+
 .submit-btn {
   padding: 15px;
   font-size: 18px;
@@ -76,7 +75,7 @@
   transition: all 0.3s ease;
 }
 
-/* Button Hover Effect */
+
 .submit-btn:hover {
   background: linear-gradient(90deg, #ff7eb3, #ff758c);
   transform: scale(1.05);
