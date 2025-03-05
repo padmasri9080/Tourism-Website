@@ -1,20 +1,20 @@
 import React, { useEffect, useState } from 'react';
 import { useParams, Link } from 'react-router-dom';
-import './Details.css';  // Add styling for the details page
+import './Details.css'; 
 
 const Details = () => {
-  const { id } = useParams(); // Get the ID from the URL parameter
+  const { id } = useParams(); 
   const [destination, setDestination] = useState(null);
 
   useEffect(() => {
-    // Fetch the destination data based on the ID
+    
     const destinationsData = [
       { id: 1, name: 'Taj Mahal', image: 'image_url', description: 'Description', location: 'Location', bestTime: 'Best time' },
       { id: 2, name: 'Jaipur', image: 'image_url', description: 'Description', location: 'Location', bestTime: 'Best time' },
       // Add other destinations here
     ];
 
-    // Find the destination that matches the ID from the URL
+    
     const selectedDestination = destinationsData.find(dest => dest.id === parseInt(id));
     setDestination(selectedDestination);
   }, [id]);
