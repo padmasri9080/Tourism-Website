@@ -4,7 +4,7 @@
 }
 
 .search-bar {
-  margin-bottom: 30px;  /* Increased space below the search bar */
+  margin-bottom: 30px;  
   text-align: center;
 }
 
@@ -22,12 +22,12 @@
   grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
   gap: 20px;
   justify-items: center;
-  margin-top: 30px;  /* Increased space between destination list and the search bar */
+  margin-top: 30px;  
 }
 
 .destination-box {
   background-color: #fff;
-  padding: 20px;  /* Increased padding */
+  padding: 20px; 
   border-radius: 10px;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
   text-align: center;
@@ -48,7 +48,7 @@
   border-radius: 8px;
   height: 180px;
   object-fit: cover;
-  margin-bottom: 20px;  /* Increased space between image and text */
+  margin-bottom: 20px;  
 }
 
 .destination-box h2 {
@@ -67,20 +67,20 @@
   color: #333;
 }
 
-/* Container for buttons with natural spacing */
+
 .buttons-container {
   display: flex;
   flex-direction: column;
-  gap: 20px;  /* Increased space between the buttons */
+  gap: 20px;  
   width: 100%;
   align-items: center;
-  margin-top: 20px;  /* Increased space between content and buttons */
+  margin-top: 20px; 
 }
 
-/* Button styles */
+
 .add-to-favorites,
 .book-now {
-  width: 45%;  /* Small width for both buttons */
+  width: 45%;  
   padding: 10px;
   
   border: none;
@@ -114,11 +114,10 @@
   background-color: #699fda;
 }
 
-/* Favorite link styles */
 .favorites-link {
   text-align: center;
   display: block;
-  margin-top: 30px;  /* Increased space between favorite link and other content */
+  margin-top: 30px; 
   font-size: 1.2em;
   color: #007bff;
   text-decoration: none;
