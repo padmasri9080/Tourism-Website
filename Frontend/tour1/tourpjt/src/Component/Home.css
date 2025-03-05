@@ -1,20 +1,20 @@
-/* Home Page Styling */
+
 .home {
   position: relative;
-  height: 100vh; /* Full viewport height */
-  width: 100%;   /* Full width */
+  height: 100vh; 
+  width: 100%;   
   background-image: url('https://wallpapercave.com/wp/wp4782910.jpg');
-  background-size: cover; /* Ensures the image covers the entire container */
-  background-position: center; /* Keeps the image centered */
-  background-repeat: no-repeat; /* Prevents the image from repeating */
+  background-size: cover; 
+  background-position: center; 
+  background-repeat: no-repeat; 
   display: flex;
-  justify-content: center; /* Horizontally center the content */
-  align-items: center;     /* Vertically center the content */
+  justify-content: center; 
+  align-items: center;     
   padding: 0;
-  overflow: hidden;        /* Prevents overflow */
+  overflow: hidden;       
 }
 
-/* Dark overlay for better text readability */
+
 .home::before {
   content: '';
   position: absolute;
@@ -22,32 +22,32 @@
   left: 0;
   right: 0;
   bottom: 0;
-  background: rgba(0, 0, 0, 0.3); /* Slightly darkens the background image */
-  z-index: 1; /* Places the overlay behind the text */
+  background: rgba(0, 0, 0, 0.3); 
+  z-index: 1;
 }
 
-/* Welcome text styling */
+
 .welcome-address {
   position: relative;
   text-align: center;
-  max-width: 600px;  /* Adjust text width */
-  z-index: 2; /* Ensure text is above the overlay */
+  max-width: 600px;  
+  z-index: 2; 
   padding: 20px;
 }
 
-/* Stylish heading */
+
 .welcome-address h1 {
-  font-size: 3rem;  /* Large font */
+  font-size: 3rem;  
   font-weight: bold;
-  color: #f7efec; /* Golden yellow */
-  text-shadow: 4px 4px 12px rgba(0, 0, 0, 0.9); /* Enhanced shadow effect */
+  color: #f7efec; 
+  text-shadow: 4px 4px 12px rgba(0, 0, 0, 0.9); 
   margin: 0;
 }
 
-/* Subheading text */
+
 .welcome-address p {
-  font-size: 1.8rem;  /* Smaller font */
+  font-size: 1.8rem; 
   color: white;
-  text-shadow: 3px 3px 10px rgba(0, 0, 0, 0.9); /* Consistent shadow for readability */
+  text-shadow: 3px 3px 10px rgba(0, 0, 0, 0.9); 
   margin-top: 10px;
 }
