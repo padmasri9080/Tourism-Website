@@ -1,13 +1,4 @@
-/* Global Styles for the entire app */
 
-
-/* Body styling */
-
-
-/* Global container to hold the entire page content */
-
-
-/* Navbar container */
 .navbar {
   background-color: rebeccapurple;
   padding: 10px 20px;
@@ -19,7 +10,6 @@
   z-index: 1000;
 }
 
-/* Navbar links styling */
 .navbar a {
   color: white;
   margin: 0 20px;
@@ -28,11 +18,11 @@
 }
 
 .navbar a:hover {
-  color: #f25c5c; /* Highlighted color on hover */
+  color: #f25c5c; 
   text-decoration: underline;
 }
 
-/* Responsive Navbar for small screens */
+
 @media (max-width: 768px) {
   .navbar {
     display: flex;
@@ -44,8 +34,6 @@
     margin: 10px 0;
   }
 }
-
-/* Container for the main content */
 
 
 
