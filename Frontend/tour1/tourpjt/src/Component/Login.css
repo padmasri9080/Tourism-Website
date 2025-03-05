@@ -1,4 +1,4 @@
-/* Full-page background styling for Login */
+
 .login-page {
   background-image: url('https://www.tripsavvy.com/thmb/j612aq-Vz0HVu-KvH_OtNwrmE8A=/2122x1413/filters:fill(auto,1)/GettyImages-531732818-592d24ec3df78cbe7e956e68.jpg'); /* Change this if needed */
   background-size: cover;
@@ -12,7 +12,7 @@
   padding: 0;
 }
 
-/* Login form container */
+
 .login-container {
   width: 100%;
   max-width: 400px;
@@ -23,7 +23,7 @@
   text-align: center;
 }
 
-/* Login Heading */
+
 .login-container h2 {
   font-size: 1.8em;
   color: #000;
@@ -31,7 +31,7 @@
   margin-bottom: 15px;
 }
 
-/* Input fields */
+
 .login-container input {
   width: 95%;
   padding: 12px;
@@ -42,14 +42,14 @@
   background: white;
 }
 
-/* Input focus effect */
+
 .login-container input:focus {
   border-color: #92bae6;
   outline: none;
   box-shadow: 0 0 5px rgba(23, 102, 185, 0.5);
 }
 
-/* Login button styling */
+
 .login-container button {
   width: 100%;
   
@@ -67,7 +67,6 @@
   background-color: #434f55;
 }
 
-/* Link to Signup */
 .login-container p {
   margin-top: 15px;
   font-size: 1em;
